@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "build": "webpack",
+    "deploy": "yarn run build && gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
@@ -34,6 +36,7 @@
     "@types/uuid": "^8.3.4",
     "css-loader": "^6.7.2",
     "dotenv": "^16.0.1",
+    "gh-pages": "^5.0.0",
     "process": "^0.11.10",
     "react-error-overlay": "^6.0.9",
     "react-use": "^17.4.0",
@@ -43,5 +46,6 @@
     "webpack": "^5.72.1",
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.9.0"
-  }
+  },
+  "homepage": "https://inaniwaudon.github.io/gridstroke/"
 }

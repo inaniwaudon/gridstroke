@@ -1,7 +1,7 @@
 const dotenv = require("dotenv");
 const path = require("path");
 const webpack = require("webpack");
-const TsconfigPathsPlugin = require("tsconfig-paths-webpack-plugin");
+const CopyPlugin = require("copy-webpack-plugin");
 
 const env = dotenv.config().parsed;
 
@@ -45,6 +45,8 @@ module.exports = {
     new webpack.DefinePlugin({
       "process.env": JSON.stringify(env),
     }),
-    //new TsconfigPathsPlugin(),
+    new CopyPlugin({
+      patterns: [{ from: "public" }],
+    }),
   ],
 };

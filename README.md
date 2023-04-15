@@ -4,7 +4,7 @@ gridstroke は，手書きストロークの入力に基づいてグリッドレ
 
 [情報処理学会インタラクション 2023 インタラクティブ発表（デモ）](https://www.interaction-ipsj.org/2023/catalog#intaractive1_demo)   
 「グリッドレイアウトに基づく組版作業を支援する手書きストロークを入力としたインタフェースの開発」  
-和田 優斗，志築 文太郎（筑波大）（[ポスター](./docs/poster.pdf)）
+和田 優斗，志築 文太郎（筑波大）（[予稿](https://www.interaction-ipsj.org/proceedings/2023/data/pdf/1A-06.pdf)・[ポスター](./docs/poster.pdf)）
 
 https://user-images.githubusercontent.com/69859801/223517651-da7e2b52-64e5-4f91-b641-b83c4d9baadd.mp4
 

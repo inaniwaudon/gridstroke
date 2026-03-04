@@ -2,10 +2,6 @@
 
 gridstroke は，手書きストロークの入力に基づいてグリッドレイアウトを生成し，組版作業を支援する Web アプリケーションです．
 
-[情報処理学会インタラクション 2023 インタラクティブ発表（デモ）](https://www.interaction-ipsj.org/2023/catalog#intaractive1_demo)   
-「グリッドレイアウトに基づく組版作業を支援する手書きストロークを入力としたインタフェースの開発」  
-和田 優斗，志築 文太郎（筑波大）（[予稿](https://www.interaction-ipsj.org/proceedings/2023/data/pdf/1A-06.pdf)・[ポスター](./docs/poster.pdf)）
-
 https://user-images.githubusercontent.com/69859801/223517651-da7e2b52-64e5-4f91-b641-b83c4d9baadd.mp4
 
 ## 特徴
@@ -62,3 +58,22 @@ yarn start  # localhost:8080 で起動
 | A／S | ツールを左／右に移動 |
 | W／S | ツールを上／下に移動 |
 | Esc | テキスト編集モードを解除 |
+
+## Publication
+
+和田 優斗，志築 文太郎．グリッドレイアウトに基づく組版作業を支援する手書きストロークを入力としたインタフェース．インタラクション 2023，2023 年 3 月 8–10 日，東京，情報処理学会，pp. 134–137．[論文](https://www.iplab.cs.tsukuba.ac.jp/paper/poster/wada_interaction2023.pdf)，[ポスター](https://www.iplab.cs.tsukuba.ac.jp/~wada/assets/interaction2023-poster.pdf)
+
+```bibtex
+@inproceedings{flick-in,
+  author = {和田, 優斗 and 志築, 文太郎},
+  title = {グリッドレイアウトに基づく組版作業を支援する手書きストロークを入力としたインタフェース},
+  year = {2023},
+  publisher = {情報処理学会},
+  address = {東京，日本},
+  address = {東京，日本},
+  booktitle = {インタラクション 2023 予稿集},
+  articleno = {19},
+  pages = {134-137},
+  location = {東京，日本},
+}
+```

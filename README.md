@@ -64,7 +64,7 @@ yarn start  # localhost:8080 で起動
 和田 優斗，志築 文太郎．グリッドレイアウトに基づく組版作業を支援する手書きストロークを入力としたインタフェース．インタラクション 2023，2023 年 3 月 8–10 日，東京，情報処理学会，pp. 134–137．[論文](https://www.iplab.cs.tsukuba.ac.jp/paper/poster/wada_interaction2023.pdf)，[ポスター](https://www.iplab.cs.tsukuba.ac.jp/~wada/assets/interaction2023-poster.pdf)
 
 ```bibtex
-@inproceedings{flick-in,
+@inproceedings{gridstroke,
   author = {和田, 優斗 and 志築, 文太郎},
   title = {グリッドレイアウトに基づく組版作業を支援する手書きストロークを入力としたインタフェース},
   year = {2023},
